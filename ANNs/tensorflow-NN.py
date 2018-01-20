@@ -187,3 +187,6 @@ accuracy = match_count / len(test_labels)
 
 # Print the accuracy
 print("Accuracy: {:.3f}".format(accuracy))
+
+
+sess.close()
